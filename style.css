@@ -1,0 +1,111 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(./img/background.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.contenitore{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 90vh;
+    min-width: 65vw;
+    border-radius: 1rem;
+}
+
+.centrato{
+    justify-content: center;
+    display:flex;
+}
+
+.logo{
+    margin-top: 30px;
+    width: auto;
+    height: 75px;  
+}
+
+h1{
+    color: #00DD00;
+    font-size: 30px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+
+    font-size: 25px;
+
+}
+
+.allineaSx{
+    margin-left: 7.5%;
+    margin-top: 25px;
+}
+
+.buttons{
+    background-color:#00DD00;
+    height: 35px;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.strada{
+
+}
+
+button{
+    margin: 5px;
+}
+
+.carica{
+
+    font-weight: 100;
+    width: 85%;
+}
+
+#carica1{
+    height: 25px;
+    background-color: rgb(221, 171, 96);
+    border-radius: 3px;
+
+    width: 35%;
+}
+
+#carica2{
+    height: 25px;
+    background-color: rgb(67, 161, 58);
+    border-radius: 3px;
+
+    width: 72%;
+}
+
+#carica3{
+    height: 25px;
+    background-color: indianred;
+    border-radius: 3px;
+
+    width: 24%;
+}
+
+.white{
+    color: white;
+    font-weight: 200;
+}
+
+h2{
+    margin: 4px;
+}
+
+p{
+    margin: 3px;
+}
+
+.f400{
+    font-weight: 400;
+}
